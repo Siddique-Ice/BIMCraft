@@ -33,6 +33,7 @@ mod favorites;
 mod fillpatterns;
 mod filter;
 mod find;
+mod finishes;
 mod footer;
 mod gpu;
 pub use gpu::limits_for;
@@ -770,6 +771,8 @@ pub struct BimApp {
     /// The last letters typed over the plan, for two-letter shortcuts.
     typed: String,
     pending: Option<Pending>,
+    /// What Delete was asked to take while it asks whether rooms' floors and ceilings go with them.
+    deleting_rooms: Option<Vec<Id>>,
     type_dialog: Option<properties::TypeDialog>,
     materials_dialog: Option<properties::MaterialsDialog>,
     family_dialog: Option<properties::FamilyDialog>,
@@ -1487,6 +1490,7 @@ impl BimApp {
             new_level: (String::new(), String::new()),
             typed: String::new(),
             pending: None,
+            deleting_rooms: None,
             type_dialog: None,
             materials_dialog: None,
             family_dialog: None,
@@ -3140,9 +3144,7 @@ impl BimApp {
             self.delete_sketch_lines();
             return;
         }
-        if !self.selection.is_empty() {
-            self.run("delete", json!({"ids": self.selection}));
-        }
+        self.delete_elements(self.selection.clone());
     }
 
     /// Zoom the view on screen by `factor` about its middle.
@@ -5872,6 +5874,7 @@ impl BimApp {
 
     fn dialogs(&mut self, ctx: &Context) {
         self.type_properties(ctx);
+        self.delete_rooms_window(ctx);
         self.family_type_properties(ctx);
         self.materials_window(ctx);
         self.favorites_window(ctx);
