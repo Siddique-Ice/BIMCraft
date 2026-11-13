@@ -3236,7 +3236,7 @@ msgstr "Abgebrochen"
 msgid "Demolition"
 msgstr "Abbruch"
 
-#: crates/core/src/commands.rs:11578
+#: crates/core/src/commands.rs:11582
 msgid "Dependent"
 msgstr "Abhängig"
 
@@ -7673,7 +7673,7 @@ msgstr "Phase abgebrochen"
 msgid "Phase Filter"
 msgstr "Phasenfilter"
 
-#: crates/core/src/ifc.rs:2189
+#: crates/core/src/ifc.rs:2194
 msgid "Phase Filters"
 msgstr "Phasenfilter"
 
@@ -8595,7 +8595,7 @@ msgid "Properties over the Project Browser, on the left, as at first"
 msgstr "Eigenschaften über dem Projektbrowser, links, wie zu Beginn"
 
 #: crates/core/src/commands.rs:550
-#: crates/core/src/commands.rs:7955
+#: crates/core/src/commands.rs:7957
 msgid "Property Line"
 msgstr ""
 
@@ -11788,7 +11788,7 @@ msgstr ""
 msgid "Unlock alignment"
 msgstr "Ausrichtung entsperren"
 
-#: crates/core/src/commands.rs:11749
+#: crates/core/src/commands.rs:11753
 msgid "Unnamed"
 msgstr "Unbenannt"
 

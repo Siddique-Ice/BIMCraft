@@ -3237,7 +3237,7 @@ msgstr "Gesloopt"
 msgid "Demolition"
 msgstr "Sloop"
 
-#: crates/core/src/commands.rs:11578
+#: crates/core/src/commands.rs:11582
 msgid "Dependent"
 msgstr "Afhankelijk"
 
@@ -7674,7 +7674,7 @@ msgstr "Fase van sloop"
 msgid "Phase Filter"
 msgstr "Fasefilter"
 
-#: crates/core/src/ifc.rs:2189
+#: crates/core/src/ifc.rs:2194
 msgid "Phase Filters"
 msgstr "Fasefilters"
 
@@ -8596,7 +8596,7 @@ msgid "Properties over the Project Browser, on the left, as at first"
 msgstr "Eigenschappen boven de Projectbrowser, links, zoals in het begin"
 
 #: crates/core/src/commands.rs:550
-#: crates/core/src/commands.rs:7955
+#: crates/core/src/commands.rs:7957
 msgid "Property Line"
 msgstr ""
 
@@ -11789,7 +11789,7 @@ msgstr ""
 msgid "Unlock alignment"
 msgstr "Uitlijning ontgrendelen"
 
-#: crates/core/src/commands.rs:11749
+#: crates/core/src/commands.rs:11753
 msgid "Unnamed"
 msgstr "Naamloos"
 

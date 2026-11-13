@@ -3237,7 +3237,7 @@ msgstr "Demolido"
 msgid "Demolition"
 msgstr "Demolición"
 
-#: crates/core/src/commands.rs:11578
+#: crates/core/src/commands.rs:11582
 msgid "Dependent"
 msgstr "Dependiente"
 
@@ -7674,7 +7674,7 @@ msgstr "Fase de demolición"
 msgid "Phase Filter"
 msgstr "Filtro de fase"
 
-#: crates/core/src/ifc.rs:2189
+#: crates/core/src/ifc.rs:2194
 msgid "Phase Filters"
 msgstr "Filtros de fase"
 
@@ -8596,7 +8596,7 @@ msgid "Properties over the Project Browser, on the left, as at first"
 msgstr "Propiedades sobre el Navegador de proyectos, a la izquierda, como al principio"
 
 #: crates/core/src/commands.rs:550
-#: crates/core/src/commands.rs:7955
+#: crates/core/src/commands.rs:7957
 msgid "Property Line"
 msgstr ""
 
@@ -11789,7 +11789,7 @@ msgstr "Desbloquear"
 msgid "Unlock alignment"
 msgstr "Desbloquear alineación"
 
-#: crates/core/src/commands.rs:11749
+#: crates/core/src/commands.rs:11753
 msgid "Unnamed"
 msgstr "Sin nombre"
 

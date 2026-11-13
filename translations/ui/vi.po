@@ -3237,7 +3237,7 @@ msgstr "Đã phá dỡ"
 msgid "Demolition"
 msgstr "Phá dỡ"
 
-#: crates/core/src/commands.rs:11578
+#: crates/core/src/commands.rs:11582
 msgid "Dependent"
 msgstr "Phụ thuộc"
 
@@ -7674,7 +7674,7 @@ msgstr "Giai đoạn phá dỡ"
 msgid "Phase Filter"
 msgstr "Bộ lọc giai đoạn"
 
-#: crates/core/src/ifc.rs:2189
+#: crates/core/src/ifc.rs:2194
 msgid "Phase Filters"
 msgstr "Bộ lọc giai đoạn"
 
@@ -8596,7 +8596,7 @@ msgid "Properties over the Project Browser, on the left, as at first"
 msgstr "Thuộc tính phía trên trình duyệt dự án, bên trái, như ban đầu"
 
 #: crates/core/src/commands.rs:550
-#: crates/core/src/commands.rs:7955
+#: crates/core/src/commands.rs:7957
 msgid "Property Line"
 msgstr ""
 
@@ -11789,7 +11789,7 @@ msgstr ""
 msgid "Unlock alignment"
 msgstr ""
 
-#: crates/core/src/commands.rs:11749
+#: crates/core/src/commands.rs:11753
 msgid "Unnamed"
 msgstr "Chưa đặt tên"
 
